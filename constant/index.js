@@ -21,3 +21,16 @@ export const SUPPORTED_LICENSE = new Set([
 ]);
 
 export const EMBEDDED_SCRIPT_IN_HEAD = `<script src="https://code.puttyimage.io/latest/polyfill.min.js"></script>`;
+
+/* eslint-disable sort-keys */
+export const LOG_LEVEL_MAP = {
+  all: 0,
+  trace: 10,
+  debug: 20,
+  info: 30,
+  warn: 40,
+  error: 50,
+  fatal: 60,
+  off: 70,
+};
+/* eslint-enable sort-keys */
